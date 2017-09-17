@@ -19,6 +19,7 @@
             android:layout_weight="0.10" />
 
         <TextView
+            android:id="@+id/currentPurchedCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -37,16 +38,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/addOneButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    tools:text="+1" />
+                    android:text="+1" />
 
                 <Button
+                    android:id="@+id/addFiveButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    tools:text="+5" />
+                    android:text="+5" />
 
                 </LinearLayout>
 
@@ -56,16 +59,18 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/subtractOneButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    tools:text="-1" />
+                    android:text="-1" />
 
                 <Button
+                    android:id="@+id/singleItemClearButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    tools:text="clear" />
+                    android:text="clear" />
             </LinearLayout>
 
         </LinearLayout>
