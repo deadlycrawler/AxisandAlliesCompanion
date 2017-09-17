@@ -18,6 +18,7 @@
             android:layout_weight="1"
             android:maxLines="1"
             android:inputType="numberSigned"
+            android:focusedByDefault="false"
             android:hint="enter IPCs here" />
 
         <TextView
@@ -39,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:text="Total remaining IPCs=56" />
+            android:text="Total remaining IPCs=56" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
