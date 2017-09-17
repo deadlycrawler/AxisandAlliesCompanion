@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         BuyActivity activty = new BuyActivity();
         Intent i = new Intent(MainActivity.this, activty.getClass());
-
         startActivity(i);
     }
 }
